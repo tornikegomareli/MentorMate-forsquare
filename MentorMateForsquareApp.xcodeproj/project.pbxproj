@@ -7,25 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E61F0B3527453ED40047CFE4 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F0B3427453ED40047CFE4 /* PagerViewController.swift */; };
+		E61F0B38274540430047CFE4 /* SwipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F0B37274540430047CFE4 /* SwipeViewController.swift */; };
+		E61F0B3C274542EB0047CFE4 /* VenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F0B3A274542EB0047CFE4 /* VenueCell.swift */; };
+		E61F0B3D274542EB0047CFE4 /* VenueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61F0B3B274542EB0047CFE4 /* VenueCell.xib */; };
+		E63ED93C2743C6C90026B4A3 /* MainScene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63ED93B2743C6C90026B4A3 /* MainScene.storyboard */; };
+		E63ED9412743C70C0026B4A3 /* MainSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63ED9402743C70C0026B4A3 /* MainSceneViewModel.swift */; };
+		E63ED9442743C9330026B4A3 /* EventBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63ED9432743C9330026B4A3 /* EventBus.swift */; };
+		E6528E2B27442D3900ADDC43 /* VenuesEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6528E2A27442D3900ADDC43 /* VenuesEvent.swift */; };
+		E6528E2D27442E8900ADDC43 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6528E2C27442E8900ADDC43 /* UIViewController+Extension.swift */; };
 		E65326A9273D43EC0091E7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326A8273D43EC0091E7A7 /* AppDelegate.swift */; };
 		E65326AB273D43EC0091E7A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326AA273D43EC0091E7A7 /* SceneDelegate.swift */; };
-		E65326AD273D43EC0091E7A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326AC273D43EC0091E7A7 /* ViewController.swift */; };
+		E65326AD273D43EC0091E7A7 /* MainSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326AC273D43EC0091E7A7 /* MainSceneViewController.swift */; };
 		E65326B0273D43EC0091E7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65326AE273D43EC0091E7A7 /* Main.storyboard */; };
 		E65326B3273D43EC0091E7A7 /* MentorMateForsquareApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E65326B1273D43EC0091E7A7 /* MentorMateForsquareApp.xcdatamodeld */; };
 		E65326B5273D43EF0091E7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65326B4273D43EF0091E7A7 /* Assets.xcassets */; };
 		E65326B8273D43EF0091E7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65326B6273D43EF0091E7A7 /* LaunchScreen.storyboard */; };
+		E65326C8273D56690091E7A7 /* FourSquareApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326C7273D56690091E7A7 /* FourSquareApiClient.swift */; };
+		E65326CC273D57AD0091E7A7 /* VenuesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326CB273D57AD0091E7A7 /* VenuesRepository.swift */; };
+		E65326CF273D5B7C0091E7A7 /* Core+Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326CE273D5B7C0091E7A7 /* Core+Bundle+Extension.swift */; };
+		E65326D2273D62420091E7A7 /* FosqueareVenuesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65326D1273D62420091E7A7 /* FosqueareVenuesResponse.swift */; };
+		E673B4C327466C6F00247552 /* GetLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4C227466C6F00247552 /* GetLocation.swift */; };
+		E673B4DE274675FB00247552 /* CoreDataContextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4DD274675FB00247552 /* CoreDataContextProvider.swift */; };
+		E673B4E02746762A00247552 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4DF2746762A00247552 /* Repository.swift */; };
+		E673B4E22746764A00247552 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4E12746764A00247552 /* CoreDataRepository.swift */; };
+		E673B4E4274676C600247552 /* VenueRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4E3274676C600247552 /* VenueRepository.swift */; };
+		E673B4E92746786300247552 /* DomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4E82746786300247552 /* DomainModel.swift */; };
+		E673B4EB2746799200247552 /* UnitOfWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4EA2746799200247552 /* UnitOfWork.swift */; };
+		E673B4EE2746828200247552 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4ED2746828200247552 /* CacheManager.swift */; };
+		E673B4F2274683F100247552 /* NetworkConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E673B4F1274683F100247552 /* NetworkConnectionManager.swift */; };
+		E6AD82A727464B780014D819 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AD82A627464B780014D819 /* CustomSegmentedControl.swift */; };
+		E6AD82AA27464D440014D819 /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AD82A927464D440014D819 /* AboutUs.storyboard */; };
+		E6AD82AC27464EE60014D819 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AD82AB27464EE60014D819 /* AboutUsViewController.swift */; };
+		E6AD82AE2746606F0014D819 /* PagerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6AD82AD2746606F0014D819 /* PagerView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E61F0B3427453ED40047CFE4 /* PagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
+		E61F0B37274540430047CFE4 /* SwipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewController.swift; sourceTree = "<group>"; };
+		E61F0B3A274542EB0047CFE4 /* VenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueCell.swift; sourceTree = "<group>"; };
+		E61F0B3B274542EB0047CFE4 /* VenueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VenueCell.xib; sourceTree = "<group>"; };
+		E63ED93B2743C6C90026B4A3 /* MainScene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainScene.storyboard; sourceTree = "<group>"; };
+		E63ED9402743C70C0026B4A3 /* MainSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneViewModel.swift; sourceTree = "<group>"; };
+		E63ED9432743C9330026B4A3 /* EventBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventBus.swift; sourceTree = "<group>"; };
+		E6528E2A27442D3900ADDC43 /* VenuesEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesEvent.swift; sourceTree = "<group>"; };
+		E6528E2C27442E8900ADDC43 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		E65326A5273D43EC0091E7A7 /* MentorMateForsquareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MentorMateForsquareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65326A8273D43EC0091E7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E65326AA273D43EC0091E7A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E65326AC273D43EC0091E7A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E65326AC273D43EC0091E7A7 /* MainSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSceneViewController.swift; sourceTree = "<group>"; };
 		E65326AF273D43EC0091E7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E65326B2273D43EC0091E7A7 /* MentorMateForsquareApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MentorMateForsquareApp.xcdatamodel; sourceTree = "<group>"; };
 		E65326B4273D43EF0091E7A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E65326B7273D43EF0091E7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E65326B9273D43EF0091E7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65326C7273D56690091E7A7 /* FourSquareApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourSquareApiClient.swift; sourceTree = "<group>"; };
+		E65326CB273D57AD0091E7A7 /* VenuesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesRepository.swift; sourceTree = "<group>"; };
+		E65326CE273D5B7C0091E7A7 /* Core+Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Core+Bundle+Extension.swift"; sourceTree = "<group>"; };
+		E65326D1273D62420091E7A7 /* FosqueareVenuesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FosqueareVenuesResponse.swift; sourceTree = "<group>"; };
+		E673B4C227466C6F00247552 /* GetLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetLocation.swift; sourceTree = "<group>"; };
+		E673B4DD274675FB00247552 /* CoreDataContextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContextProvider.swift; sourceTree = "<group>"; };
+		E673B4DF2746762A00247552 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		E673B4E12746764A00247552 /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		E673B4E3274676C600247552 /* VenueRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRepository.swift; sourceTree = "<group>"; };
+		E673B4E82746786300247552 /* DomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainModel.swift; sourceTree = "<group>"; };
+		E673B4EA2746799200247552 /* UnitOfWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitOfWork.swift; sourceTree = "<group>"; };
+		E673B4ED2746828200247552 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		E673B4F1274683F100247552 /* NetworkConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectionManager.swift; sourceTree = "<group>"; };
+		E6AD82A627464B780014D819 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		E6AD82A927464D440014D819 /* AboutUs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AboutUs.storyboard; sourceTree = "<group>"; };
+		E6AD82AB27464EE60014D819 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		E6AD82AD2746606F0014D819 /* PagerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PagerView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +91,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E61F0B3327453EC60047CFE4 /* Pager */ = {
+			isa = PBXGroup;
+			children = (
+				E61F0B3427453ED40047CFE4 /* PagerViewController.swift */,
+				E6AD82AD2746606F0014D819 /* PagerView.storyboard */,
+			);
+			path = Pager;
+			sourceTree = "<group>";
+		};
+		E61F0B362745403A0047CFE4 /* Swiper */ = {
+			isa = PBXGroup;
+			children = (
+				E61F0B37274540430047CFE4 /* SwipeViewController.swift */,
+			);
+			path = Swiper;
+			sourceTree = "<group>";
+		};
+		E61F0B392745429F0047CFE4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E61F0B3A274542EB0047CFE4 /* VenueCell.swift */,
+				E61F0B3B274542EB0047CFE4 /* VenueCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E63ED93A2743C68D0026B4A3 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				E61F0B392745429F0047CFE4 /* Cell */,
+				E6528E2927442CC800ADDC43 /* Events */,
+				E63ED93F2743C6F90026B4A3 /* ViewModel */,
+				E63ED93E2743C6F20026B4A3 /* Controller */,
+				E63ED93D2743C6EC0026B4A3 /* Storyboard */,
+			);
+			path = MainScene;
+			sourceTree = "<group>";
+		};
+		E63ED93D2743C6EC0026B4A3 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E63ED93B2743C6C90026B4A3 /* MainScene.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		E63ED93E2743C6F20026B4A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E65326AC273D43EC0091E7A7 /* MainSceneViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E63ED93F2743C6F90026B4A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E63ED9402743C70C0026B4A3 /* MainSceneViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E63ED9422743C9180026B4A3 /* EventBus */ = {
+			isa = PBXGroup;
+			children = (
+				E63ED9432743C9330026B4A3 /* EventBus.swift */,
+			);
+			path = EventBus;
+			sourceTree = "<group>";
+		};
+		E6528E2927442CC800ADDC43 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				E6528E2A27442D3900ADDC43 /* VenuesEvent.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
 		E653269C273D43EC0091E7A7 = {
 			isa = PBXGroup;
 			children = (
@@ -58,16 +188,180 @@
 		E65326A7273D43EC0091E7A7 /* MentorMateForsquareApp */ = {
 			isa = PBXGroup;
 			children = (
-				E65326A8273D43EC0091E7A7 /* AppDelegate.swift */,
-				E65326AA273D43EC0091E7A7 /* SceneDelegate.swift */,
-				E65326AC273D43EC0091E7A7 /* ViewController.swift */,
-				E65326AE273D43EC0091E7A7 /* Main.storyboard */,
-				E65326B4273D43EF0091E7A7 /* Assets.xcassets */,
-				E65326B6273D43EF0091E7A7 /* LaunchScreen.storyboard */,
+				E65326C3273D54870091E7A7 /* Core */,
+				E65326C4273D548E0091E7A7 /* Presentation */,
 				E65326B9273D43EF0091E7A7 /* Info.plist */,
-				E65326B1273D43EC0091E7A7 /* MentorMateForsquareApp.xcdatamodeld */,
 			);
 			path = MentorMateForsquareApp;
+			sourceTree = "<group>";
+		};
+		E65326BF273D54640091E7A7 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				E65326AA273D43EC0091E7A7 /* SceneDelegate.swift */,
+				E65326A8273D43EC0091E7A7 /* AppDelegate.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		E65326C0273D546D0091E7A7 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD82A827464D310014D819 /* About us */,
+				E61F0B3327453EC60047CFE4 /* Pager */,
+				E63ED93A2743C68D0026B4A3 /* MainScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E65326C1273D54730091E7A7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E65326AE273D43EC0091E7A7 /* Main.storyboard */,
+				E65326B6273D43EF0091E7A7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E65326C2273D547E0091E7A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E65326B4273D43EF0091E7A7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E65326C3273D54870091E7A7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD82A527464B690014D819 /* CustomViews */,
+				E65326D3273D647D0091E7A7 /* Utils */,
+				E65326D0273D62320091E7A7 /* Models */,
+				E65326CD273D5B710091E7A7 /* Extensions */,
+				E65326C9273D578D0091E7A7 /* Repositories */,
+				E65326C6273D54A30091E7A7 /* Networking */,
+				E65326C5273D549A0091E7A7 /* Database */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E65326C4273D548E0091E7A7 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E65326C2273D547E0091E7A7 /* Resources */,
+				E65326C1273D54730091E7A7 /* Storyboards */,
+				E65326C0273D546D0091E7A7 /* Scenes */,
+				E65326BF273D54640091E7A7 /* Root */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E65326C5273D549A0091E7A7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E673B4E52746777100247552 /* Models */,
+				E65326B1273D43EC0091E7A7 /* MentorMateForsquareApp.xcdatamodeld */,
+				E673B4DD274675FB00247552 /* CoreDataContextProvider.swift */,
+				E673B4DF2746762A00247552 /* Repository.swift */,
+				E673B4E12746764A00247552 /* CoreDataRepository.swift */,
+				E673B4E3274676C600247552 /* VenueRepository.swift */,
+				E673B4EA2746799200247552 /* UnitOfWork.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E65326C6273D54A30091E7A7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E65326C7273D56690091E7A7 /* FourSquareApiClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E65326C9273D578D0091E7A7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E65326CB273D57AD0091E7A7 /* VenuesRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E65326CD273D5B710091E7A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E65326CE273D5B7C0091E7A7 /* Core+Bundle+Extension.swift */,
+				E6528E2C27442E8900ADDC43 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E65326D0273D62320091E7A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E65326D1273D62420091E7A7 /* FosqueareVenuesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E65326D3273D647D0091E7A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E673B4F0274683E300247552 /* NetworkConnectionManager */,
+				E673B4EC2746827A00247552 /* CacheManager */,
+				E673B4C127466C6300247552 /* LocationManager */,
+				E61F0B362745403A0047CFE4 /* Swiper */,
+				E63ED9422743C9180026B4A3 /* EventBus */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E673B4C127466C6300247552 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				E673B4C227466C6F00247552 /* GetLocation.swift */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		E673B4E52746777100247552 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E673B4E82746786300247552 /* DomainModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E673B4EC2746827A00247552 /* CacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				E673B4ED2746828200247552 /* CacheManager.swift */,
+			);
+			path = CacheManager;
+			sourceTree = "<group>";
+		};
+		E673B4F0274683E300247552 /* NetworkConnectionManager */ = {
+			isa = PBXGroup;
+			children = (
+				E673B4F1274683F100247552 /* NetworkConnectionManager.swift */,
+			);
+			path = NetworkConnectionManager;
+			sourceTree = "<group>";
+		};
+		E6AD82A527464B690014D819 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD82A627464B780014D819 /* CustomSegmentedControl.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E6AD82A827464D310014D819 /* About us */ = {
+			isa = PBXGroup;
+			children = (
+				E6AD82A927464D440014D819 /* AboutUs.storyboard */,
+				E6AD82AB27464EE60014D819 /* AboutUsViewController.swift */,
+			);
+			path = "About us";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +422,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AD82AA27464D440014D819 /* AboutUs.storyboard in Resources */,
+				E61F0B3D274542EB0047CFE4 /* VenueCell.xib in Resources */,
 				E65326B8273D43EF0091E7A7 /* LaunchScreen.storyboard in Resources */,
 				E65326B5273D43EF0091E7A7 /* Assets.xcassets in Resources */,
+				E63ED93C2743C6C90026B4A3 /* MainScene.storyboard in Resources */,
 				E65326B0273D43EC0091E7A7 /* Main.storyboard in Resources */,
+				E6AD82AE2746606F0014D819 /* PagerView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +439,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E673B4EE2746828200247552 /* CacheManager.swift in Sources */,
+				E61F0B3527453ED40047CFE4 /* PagerViewController.swift in Sources */,
+				E6528E2B27442D3900ADDC43 /* VenuesEvent.swift in Sources */,
+				E6528E2D27442E8900ADDC43 /* UIViewController+Extension.swift in Sources */,
+				E673B4E22746764A00247552 /* CoreDataRepository.swift in Sources */,
 				E65326B3273D43EC0091E7A7 /* MentorMateForsquareApp.xcdatamodeld in Sources */,
-				E65326AD273D43EC0091E7A7 /* ViewController.swift in Sources */,
+				E63ED9442743C9330026B4A3 /* EventBus.swift in Sources */,
+				E61F0B38274540430047CFE4 /* SwipeViewController.swift in Sources */,
+				E65326AD273D43EC0091E7A7 /* MainSceneViewController.swift in Sources */,
 				E65326A9273D43EC0091E7A7 /* AppDelegate.swift in Sources */,
+				E673B4EB2746799200247552 /* UnitOfWork.swift in Sources */,
+				E65326C8273D56690091E7A7 /* FourSquareApiClient.swift in Sources */,
+				E673B4DE274675FB00247552 /* CoreDataContextProvider.swift in Sources */,
+				E6AD82A727464B780014D819 /* CustomSegmentedControl.swift in Sources */,
+				E6AD82AC27464EE60014D819 /* AboutUsViewController.swift in Sources */,
+				E61F0B3C274542EB0047CFE4 /* VenueCell.swift in Sources */,
+				E63ED9412743C70C0026B4A3 /* MainSceneViewModel.swift in Sources */,
+				E673B4C327466C6F00247552 /* GetLocation.swift in Sources */,
+				E673B4E4274676C600247552 /* VenueRepository.swift in Sources */,
+				E65326D2273D62420091E7A7 /* FosqueareVenuesResponse.swift in Sources */,
 				E65326AB273D43EC0091E7A7 /* SceneDelegate.swift in Sources */,
+				E673B4E92746786300247552 /* DomainModel.swift in Sources */,
+				E673B4F2274683F100247552 /* NetworkConnectionManager.swift in Sources */,
+				E65326CF273D5B7C0091E7A7 /* Core+Bundle+Extension.swift in Sources */,
+				E65326CC273D57AD0091E7A7 /* VenuesRepository.swift in Sources */,
+				E673B4E02746762A00247552 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +626,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MENTOR_MATE_ClientID = NU0PF5VOC2DYBSJ4TOVPCCNRHGBVXI4FFSQ2FGVSG2C3UNRU;
+				MENTOR_MATE_ClientSecret = "NYV1X0VUVZJXPGWLXGJC2MHGYRQZJM05NVKVWDNUNIMC4AJK\n\n\n\n";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tornikegomareli.MentorMateForsquareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -334,6 +656,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				MENTOR_MATE_ClientID = NU0PF5VOC2DYBSJ4TOVPCCNRHGBVXI4FFSQ2FGVSG2C3UNRU;
+				MENTOR_MATE_ClientSecret = "NYV1X0VUVZJXPGWLXGJC2MHGYRQZJM05NVKVWDNUNIMC4AJK\n\n\n\n";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tornikegomareli.MentorMateForsquareApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
