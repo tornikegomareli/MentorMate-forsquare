@@ -8,13 +8,16 @@
 
 ## Modules
 
-#### Application consists of several separated sub-modules
+#### Application consists of several ideas and modules
 
 * Network Layer
     - Service calls with ApiClient
     - General request method, which can be used for another several endpoints. Based on API
-* Management
+* Management of architechture done with
     - The main [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern) classes for service and persistence data fetching and manipulating
+    - Layer based architecture
+    - Dependency Inversion on every level
+    - SOLID principles
 * Scenes
     - Pager view controller
     - TableViewController
